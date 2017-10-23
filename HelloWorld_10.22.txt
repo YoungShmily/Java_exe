@@ -1,0 +1,46 @@
+public class HelloWorld{
+	public static void main(String[] args){
+		
+		/*
+		//寻找某两个数相除，其结果离黄金分割点0.618最近
+		float GoldenPoint = 0.618f;
+		float MinDiff = 1;
+		int Min_Numerator = 0, Min_Derominator = 0;
+		float MinDiff_Values = 0f;
+		for(int i = 0; i <= 20; i++){
+			for(int j = 0; j <= 20; j++){
+				if(0 == i%2 && 0 == j%2)
+					continue;
+				float Values = (float)i/j;
+				float Diff = Values - GoldenPoint > 0 ? Values - GoldenPoint : GoldenPoint - Values;
+				if(Diff < MinDiff){
+					MinDiff = Diff;
+					Min_Numerator = i;
+					Min_Derominator = j;
+					MinDiff_Values = Values;
+					}
+				}
+			}
+		
+		System.out.println("离黄金分割点最近的是："+Min_Numerator+"/"+Min_Derominator+"值为："+MinDiff_Values);
+		
+		*/
+		
+		/*
+		//寻找所有的水仙花数
+		System.out.println("水仙花数有：");
+		for(int Num = 100; Num <1000; Num++){
+			
+			int Ones = Num % 10;
+			int Hundreds = Num /100;
+			int Tens = (Num - Hundreds * 100) /10;
+			
+			if(Num == Ones*Ones*Ones + Tens*Tens*Tens + Hundreds*Hundreds*Hundreds)
+				System.out.println(Num);
+		}
+		
+		*/
+		
+	}
+
+}
